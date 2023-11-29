@@ -39,7 +39,6 @@ const {
   reactiveStepMargin
 );
 
-const tableClass = ref(['non-full-text']);
 const wrapperHeight = ref(0);
 const scrollHeight = ref(0);
 
@@ -103,7 +102,7 @@ onUnmounted(() => {
           </table>
         </div>
         <div class="table-body-wrap">
-          <table :class="tableClass">
+          <table>
             <VirtualColumnTableColgroup v-bind="getColgroupProps"/>
             <VirtualColumnTableBody v-bind="getBodyProps"/>
           </table>
