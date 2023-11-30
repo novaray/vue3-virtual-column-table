@@ -48,3 +48,9 @@ virtual scroll의 핵심은 viewport는 고정이고, 스크롤을 하면 스크
     2. step: vierport width / eachRegularColumnSize
     3. Array.prototype.slice(start index, step)
 4. 총 4개의 영역에 적용해서 데이터 바꿔치기 적용.
+
+### 예제 영상
+
+https://github.com/novaray/vue3-virtual-column-table/assets/42734927/4cf191b0-1659-4d0a-b073-03f582ed3c40
+
+
