@@ -9,6 +9,13 @@ element-plus에서 테이블이 column이나 row 개수가 많아질 때 굉장�
 
 ## 본문
 
+### 설치
+1. `npm install`
+2. `npm run dev`
+
+### demo site
+- https://main--storied-jelly-ec5ba4.netlify.app/
+
 ### 구조
 예제용으로 정리한 테이블은,  
 처음 몇 개의 컬럼은 width가 불규칙적으로 주어지고, 이후의 컬럼의 width는 모두 동일하게 주어지는 상황이다.
